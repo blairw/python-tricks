@@ -4,7 +4,7 @@ Honestly not that amazing, I just wanted to keep a notebook of Python tricks
 
 ## Assessment Marking
 
-Override marks from one CSV file based on an overrides CSV file:
+Override marks from one CSV file based on another "overrides" CSV file:
 
 ```python
 def apply_override(this_team, this_mrkc, this_mark, df_working_sheet):
