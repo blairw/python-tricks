@@ -2,6 +2,16 @@
 
 Honestly not that amazing, I just wanted to keep a notebook of Python tricks
 
+## Check if data is numeric
+
+If you just use `isnumeric()` it doesn't work if you run it on an `int` since `int` does not have `isnumeric()`. You will get the error message "'int' object has no attribute 'isnumeric'"!
+
+So, as per https://stackoverflow.com/a/73725567:
+
+```python
+str(n).isnumeric()
+```
+
 ## Assessment Marking
 
 Override marks from one CSV file based on another "overrides" CSV file:
